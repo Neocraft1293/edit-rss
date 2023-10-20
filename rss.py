@@ -7,7 +7,7 @@ from flask import Flask, Response
 app = Flask(__name__)
 
 # URL du flux RSS d'origine
-rss_url = "https://www.torrent911.io/rss/animes"
+rss_url = "https://rss.ex"
 
 def generate_modified_rss():
     # Télécharger le flux RSS
